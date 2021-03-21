@@ -5,6 +5,8 @@ import firebaseConfig from './firebase.config';
 import { UserContext } from '../../App';
 import './Login.css'
 import { useHistory, useLocation } from 'react-router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 
 if (!firebase.apps.length) {
@@ -163,8 +165,8 @@ const Login = () => {
               <br />
               <input type="password" name="password" id="" onBlur={handleBlur} placeholder='Your Password' required />
               <br />
-              <input className="btn btn-danger button" type="submit" value="SignUp" />
-              <p>Already have an account? <span onClick={() => setNewUser(!newUser)} style={{ cursor: 'pointer', textDecoration: 'underline', color: 'blue' }}>sign in</span></p>
+              <input className="btn btn-danger button" type="submit" value="Sign Up" />
+              <p>Already have an account? <span onClick={() => setNewUser(!newUser)} style={{ cursor: 'pointer', textDecoration: 'underline', color: 'blue' }}>Login</span></p>
               <p style={{ color: 'red' }}>{user.error}</p>
             </form>
           </div>)
@@ -193,9 +195,9 @@ const Login = () => {
 
       <div className='alternative-field col-12' >
         <h4>Or</h4>
-        <button className="btn btn-danger button" onClick={handleGoogleSignIn}>Google Sign in</button>
+        <button className="btn btn-danger button" onClick={handleGoogleSignIn}><FontAwesomeIcon icon={faGoogle} /> SignIn With Google</button>
         <br />
-        <button className="btn btn-danger button" onClick={handleFbSignIn}>facebook Sign in</button>
+        <button className="btn btn-danger button" onClick={handleFbSignIn}><FontAwesomeIcon icon={faFacebookF} /> SignIn With Facebook</button>
       </div>
 
 
