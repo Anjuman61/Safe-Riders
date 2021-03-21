@@ -18,7 +18,6 @@ Components made for this projects are Heading, Home, Login AllRiders, SeceltedRi
 Fake data is created as data.json format to import necessary data required for this project. Google maps react is used to show google map in selected riders component.
 firebase Authentication is used to set login Authentication. Three types of authentication is implemented . first one is with email and password after that with google and facebook.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
 ### Deployment
