@@ -21,6 +21,6 @@ firebase Authentication is used to set login Authentication. Three types of auth
 
 
 ### Deployment
-
+follow the link for live site : https://safe-riders-fce30.web.app/
 
 # react-auth-Anjuman61
