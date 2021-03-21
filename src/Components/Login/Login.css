@@ -3,14 +3,22 @@
  text-align: center;
  
 }
+.authentication-field h3{
+    text-decoration: underline;
+   font-style: italic;
+   color: rgb(53, 24, 7);
+}
 .email-password-field{
-    border: 1px solid lightgray;
-      
+    border: 1px solid rgb(177, 72, 187); 
+    background-color: rgba(216, 191, 216, 0.61);
 }
 .email-password-field input{
     margin-top: 5px;
+    
 }
 .alternative-field{
     margin-top: 20px;
-   
+    padding-bottom: 20px;
+    background-color: rgba(216, 191, 216, 0.61);
+    border: 1px solid rgb(177, 72, 187); 
 }

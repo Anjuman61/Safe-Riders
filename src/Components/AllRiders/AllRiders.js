@@ -9,11 +9,14 @@ const AllRiders = (props) => {
         history.push(`/rider/${name}`);
     }
     return (
-        <div className='col-lg-3 col-sm-12 rider-card'>
-            <img src={image} alt="Riders" />
-            <h4>{name}</h4>
-            <button onClick={() => handleRider(name)} className="btn btn-danger button">View More</button>
+        <div className='col-lg-3 col-sm-12 '>
+            <div className='rider-card'>
+                <img src={image} alt="Riders" />
+                <h4>{name}</h4>
+                <button onClick={() => handleRider(name)} className="btn btn-danger button">View More</button>
+            </div>
         </div>
+
 
     );
 };

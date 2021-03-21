@@ -2,11 +2,11 @@
     border: 1px solid rgba(19, 98, 112, 0.781);
     border-radius: 10px;
     padding-bottom: 10px;
+    padding-top: 5px;
     background-color: rgba(204, 168, 121, 0.63);
     text-align: center;
-
+    width: 250px;
  
-  
 }
 .rider-card img{
     width: 100px;

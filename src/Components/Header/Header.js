@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const [user, setUser] = useContext(UserContext);
 
-
-    console.log(user)
     return (
         <div className="header">
             <div>
@@ -17,7 +15,6 @@ const Header = () => {
 
             <nav className='container-fluid'>
                 <Link to="/home">Home</Link>
-                <Link to="/destination">Destination</Link>
                 <Link to="/contact">Contact</Link>
                 {/* <Link to="/login">{user.name}</Link>  */}
                 {user.email ? <Link to="/login">{user.email}</Link> : <Link to="/login">Login</Link>}

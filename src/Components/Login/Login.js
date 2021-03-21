@@ -144,8 +144,7 @@ const Login = () => {
       });
   }
 
-
-
+  
   return (
     <div className='authentication-field row' >
       <div className='email-password-field col-12' >
@@ -194,7 +193,7 @@ const Login = () => {
 
 
       <div className='alternative-field col-12' >
-        <h4>Or</h4>
+        <h3>Or</h3>
         <button className="btn btn-danger button" onClick={handleGoogleSignIn}><FontAwesomeIcon icon={faGoogle} /> SignIn With Google</button>
         <br />
         <button className="btn btn-danger button" onClick={handleFbSignIn}><FontAwesomeIcon icon={faFacebookF} /> SignIn With Facebook</button>

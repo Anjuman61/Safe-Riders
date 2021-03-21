@@ -50,9 +50,6 @@ function App() {
             <PrivateRoute path="/rider/:name">
               <SelectedRider></SelectedRider>
             </PrivateRoute>
-            <PrivateRoute path="/destination">
-              <SelectedRider></SelectedRider>
-            </PrivateRoute>
             <Route path="*">
               <NoMatch></NoMatch>
             </Route>
