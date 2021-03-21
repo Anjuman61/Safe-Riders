@@ -1,0 +1,28 @@
+.header{
+    display:flex;
+    background-color: rgba(27, 14, 43, 0.658);
+    height: 54px;
+    
+}
+.header img{
+    width: 125px;
+}
+
+.header nav{
+    line-height: 40px;
+    font-size: 20px;
+}
+.nav{
+    margin-left: 700px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: rgb(235, 208, 202);
+}

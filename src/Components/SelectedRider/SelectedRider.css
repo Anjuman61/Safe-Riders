@@ -1,0 +1,23 @@
+.rider-selection-card{
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightyellow;
+}
+.rider-option{
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    padding-left: 10px;
+    background-color: linen;
+}
+
+.map{
+    border: 1px solid gray;
+    overflow: hidden;
+    margin-top: 20px;
+}
+

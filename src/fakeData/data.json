@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Bike",
+      "passengerCapacity1": 1,
+      "passengerCapacity2": 2,
+      "passengerCapacity3": 3,
+      "fare1": 23,
+      "fare2": 34,
+      "fare3": 42,
+      "image": "https://i.ibb.co/2YqWgjd/Frame.png"
+      
+    },
+    {
+      "id": 2,
+      "name": "Car",
+      "passengerCapacity1": 2,
+      "passengerCapacity2": 3,
+      "passengerCapacity3": 4,
+      "fare1": 30,
+      "fare2": 35,
+      "fare3": 42,
+      "image": "https://i.ibb.co/cXf4zWq/Frame-2.png"
+      
+    },
+  {
+      "id": 3,
+      "name": "Bus",
+      "passengerCapacity1": 20,
+      "passengerCapacity2": 30,
+      "passengerCapacity3": 40,
+      "fare1": 100,
+      "fare2": 150,
+      "fare3": 200,
+      "image": "https://i.ibb.co/J2wGThn/Frame-1.png"
+      
+    },
+  {
+      "id": 4,
+      "name": "Train",
+      "passengerCapacity1": 500,
+      "passengerCapacity2": 1000,
+      "passengerCapacity3": 1500,
+      "fare1": 1000,
+      "fare2": 1500,
+      "fare3": 2000,
+      "image": "https://i.ibb.co/0fMNvfJ/Group.png"
+      
+    }
+   
+  ]

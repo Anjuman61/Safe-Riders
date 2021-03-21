@@ -1,0 +1,16 @@
+.authentication-field{
+ margin: 0 auto;
+ text-align: center;
+ 
+}
+.email-password-field{
+    border: 1px solid lightgray;
+      
+}
+.email-password-field input{
+    margin-top: 5px;
+}
+.alternative-field{
+    margin-top: 20px;
+   
+}
